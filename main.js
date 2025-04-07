@@ -42,3 +42,4 @@ function receberPorcentagemBotao (evento) {
 
     porcentagem = parseFloat(evento.target.value) / 100 
  }  
+ 
