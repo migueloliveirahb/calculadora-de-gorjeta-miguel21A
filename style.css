@@ -28,6 +28,7 @@ header {
     display: flex;  
     justify-content: center;
     padding-block: 2.8rem;
+    padding-top: 4rem;
 }
 
 main {
@@ -99,7 +100,7 @@ main {
 }
 
 .gorjeta input {
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     font-weight: 700;
     border: none;
     text-align: center;

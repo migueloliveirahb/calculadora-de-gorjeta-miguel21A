@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=", initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,19 +19,15 @@
         <section class="informacoes">
             <form action="">
 
-
-
               <div class="conta">
                 <label for="conta">Conta</label>
-                 <div>
-                <img src="./calculadora-de-gorjeta_base/images/icon-dollar.svg" alt="ícone do cifrão">
-                <input type="number" name="conta" id="conta" placeholder="0">
+                <div>
+                    <img src="./calculadora-de-gorjeta_base/images/icon-dollar.svg" alt="ícone do cifrão">
+                    <input type="number" name="conta" id="conta" placeholder="0">
                 </div>
-             </div>
+              </div>
 
-
-
-             <div class="gorjeta">
+              <div class="gorjeta">
                 <label for="outra">Selecione a gorjeta %</label>
 
                 <div>
@@ -42,52 +38,41 @@
                     <input type="button" value="50%">
                     <input type="number" name="outra" id="outra" placeholder="Outra">
                 </div>
+              </div>
 
-                <div class="pessoas">
-                    <div class="textos">
-                        <label for="pessoas">Quantidade de pessoas</label>
+              <div class="pessoas">
+                <div class="textos">
+                    <label for="pessoas">Quantidade de pessoas</label>
                     <p id="erro">Não pode ser zero</p>
-                    </div>
-                 <div class="input-box">
-                <img src="./calculadora-de-gorjeta_base/images/icon-person.svg" alt="ícone do cifrão">
-                <input type="number" name="pessoas" id="pessoas" placeholder="0">
                 </div>
-             </div>
-
-
-
+                <div class="input-box">
+                    <img src="./calculadora-de-gorjeta_base/images/icon-person.svg" alt="ícone do cifrão">
+                    <input type="number" name="pessoas" id="pessoas" placeholder="0">
+                </div>
+              </div>
             </form>
         </section>
 
         <section class="resultados">
-
-
-
-             <div>
+            <div>
                 <div class="gorjeta-total">
                     <p>
                         <strong>Gorjeta</strong> <br>
                         / pessoa
                     </p>
-    
                     <strong>R$ 0.00</strong>
-                 </div>
+                </div>
     
-               
-    
-    
-    
-                 <div class="total">
+                <div class="total">
                     <p>
                         <strong>Total</strong> <br>
                         / pessoa
                     </p>
-    
                     <strong>R$ 0.00</strong>
-                 </div>
-             </div>
+                </div>
+            </div>
 
-             <button>Limpar</button>
+            <button>Limpar</button>
         </section>
     </main>
 </body>
